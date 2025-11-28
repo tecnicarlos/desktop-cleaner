@@ -20,10 +20,26 @@ TARGET_DIRS = {
 }
 
 EXTENSIONS = {
-    "Images": {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp', '.svg', '.heic'},
-    "Videos": {'.mp4', '.mov', '.avi', '.mkv', '.flv', '.wmv', '.webm', '.m4v'},
-    "Documents": {'.pdf', '.doc', '.docx', '.txt', '.xls', '.xlsx', '.ppt', '.pptx', '.csv', '.rtf', '.odt'},
-    "Music": {'.mp3', '.wav', '.flac', '.aac', '.ogg', '.m4a', '.wma'}
+    "Images": {
+        '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp', '.svg', '.heic',
+        '.tif', '.psd', '.raw', '.arw', '.cr2', '.nrw', '.k25', '.dib', '.heif',
+        '.ind', '.indd', '.indt', '.jp2', '.j2k', '.jpf', '.jpx', '.jpm', '.mj2',
+        '.ico', '.cur'
+    },
+    "Videos": {
+        '.mp4', '.mov', '.avi', '.mkv', '.flv', '.wmv', '.webm', '.m4v',
+        '.mpg', '.mpeg', '.3gp', '.3g2', '.m4p', '.m4b', '.m4r', '.vob', '.ogv',
+        '.ogg', '.drc', '.mng', '.mts', '.m2ts', '.ts', '.qt', '.yuv', '.rm',
+        '.rmvb', '.viv', '.asf', '.amv'
+    },
+    "Documents": {
+        '.pdf', '.doc', '.docx', '.txt', '.xls', '.xlsx', '.ppt', '.pptx', '.csv',
+        '.rtf', '.odt'
+    },
+    "Music": {
+        '.mp3', '.wav', '.flac', '.aac', '.ogg', '.m4a', '.wma',
+        '.aiff', '.alac', '.dsd', '.pcm', '.mpc', '.aif', '.aifc', '.opus'
+    }
 }
 
 IGNORED_FILES = {'desktop.ini', 'thumbs.db', '.ds_store', '.localized'}
