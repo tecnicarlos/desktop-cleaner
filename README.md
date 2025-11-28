@@ -7,9 +7,13 @@ O **Desktop Cleaner** é um conjunto de scripts em Python projetado para organiz
 ### 1. Organizador Automático (`cleaner.py`)
 Organiza arquivos das pastas **Desktop**, **Downloads** e **Videos** para as pastas padrão do sistema:
 - 🖼️ **Imagens** -> `Pictures`
+  - Suporta: `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, `.webp`, `.svg`, `.heic`, `.tif`, `.psd`, `.raw`, `.arw`, `.cr2`, `.nrw`, `.k25`, `.dib`, `.heif`, `.ind`, `.indd`, `.indt`, `.jp2`, `.j2k`, `.jpf`, `.jpx`, `.jpm`, `.mj2`, `.ico`, `.cur`
 - 🎥 **Vídeos** -> `Videos`
+  - Suporta: `.mp4`, `.mov`, `.avi`, `.mkv`, `.flv`, `.wmv`, `.webm`, `.m4v`, `.mpg`, `.mpeg`, `.3gp`, `.3g2`, `.m4p`, `.m4b`, `.m4r`, `.vob`, `.ogv`, `.ogg`, `.drc`, `.mng`, `.mts`, `.m2ts`, `.ts`, `.qt`, `.yuv`, `.rm`, `.rmvb`, `.viv`, `.asf`, `.amv`
 - 📄 **Documentos e outros** -> `Documents`
+  - Suporta: `.pdf`, `.doc`, `.docx`, '.txt', `.xls`, `.xlsx`, `.ppt`, `.pptx`, `.csv`, `.rtf`, `.odt`
 - 🎵 **Música** -> `Music`
+  - Suporta: `.mp3`, `.wav`, `.flac`, `.aac`, `.ogg`, `.m4a`, `.wma`, `.aiff`, `.alac`, `.dsd`, `.pcm`, `.mpc`, `.aif`, `.aifc`, `.opus`
 
 **Recursos:**
 - Ignora arquivos de sistema e temporários.
